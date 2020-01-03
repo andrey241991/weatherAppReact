@@ -1,0 +1,28 @@
+
+.current-weather{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.current-weather__country{
+    color: white;
+    font-size: 38px;
+    padding-top: 20px;
+}
+
+.current-weather__city{
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.current-weather__degree{
+    color: white;
+    font-size: 38px;
+    padding-top: 20px;
+    font-weight: 900;
+
+}

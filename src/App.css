@@ -1,0 +1,12 @@
+.app-wrapper{
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url('https://i.pinimg.com/originals/00/9d/4d/009d4d63068480007461324c98d5728f.jpg');
+}
+
+.current-weather-wrapper{
+  padding: 100px 0 0 100px;
+}
+
