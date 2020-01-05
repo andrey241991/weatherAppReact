@@ -1,10 +1,35 @@
 
-.current-weather{
+
+.detail-weather{
     max-width: 300px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+}
+
+.detail-weather-wrapper{
+    display: flex;
+    padding-bottom: 25px;
+}
+
+.detail-weather-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    font-size: 24px;
+    color: white;
+}
+
+.logo__value{
+    font-size: 28px;
+    color: white;
+}
+
+.detail-weather-img{
+    width: 50px;
+    padding-right: 10px;
 }
 
 .current-weather__country{

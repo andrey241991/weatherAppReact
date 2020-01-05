@@ -1,27 +1,29 @@
 import React from 'react';
 import './App.css';
-import CurrentWeather from '../src/components/CurrentWeather'
+import CurrentWeatherContainer from './components/CurrentWeatherContainer';
+import DetailWeatherContainer from './components/DetailWeatherContainer';
+import Login from './components/Login';
 
-const App = () => (
-  <div className='app-wrapper'>
-    <div className='current-weather-wrapper'>
-      <CurrentWeather />
+
+const App = ({state}) => {
+  console.log('state 44', state)
+  return (
+    <div
+      className='app-wrapper'
+      style={{
+        backgroundImage:
+          "url('https://i.pinimg.com/originals/00/9d/4d/009d4d63068480007461324c98d5728f.jpg')"
+      }}
+    >
+      <div className='current-weather-wrapper'>
+        <CurrentWeatherContainer />
+      </div>
+      <div className='app-detail-weather-wrapper'>
+        <DetailWeatherContainer />
+      </div>
+      {/* <Login/> */}
     </div>
-  </div>
-)
+  )
+}
+
 export default App;
-
-
-
-
-
-
-
-
-{/* <Switch>
-<Route exact path='/' component={Home} />
-<Route exact path='/docs' component={Docs} />
-<Route path='/profile/:userId' component={MyProfile} />
-
-<Route  path='/profile' component={Profile} />
-</Switch> */}
